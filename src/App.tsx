@@ -11,7 +11,7 @@ function App() {
     <div className="bg-gray-300 p-3 sm:px-10 sm:py-5 h-full">
       <div className="bg-white max-sm:px-4 p-8  grid grid-cols-1 gap-20 sm:grid-cols-2 rounded-2xl">
         {/* left side */}
-        <div className="flex flex-col w-[90%]">
+        <div className="flex flex-col sm:w-[90%]">
           <img src={logo} alt="" className="w-10 h-10" />
           <div className="sm:mt-10 mt-7">
             <p className="text-2xl font-semibold">Get Started Now</p>
